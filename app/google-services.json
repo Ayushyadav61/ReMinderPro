@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "535916417845",
+    "firebase_url": "https://reminder-pro.firebaseio.com",
+    "project_id": "reminder-pro",
+    "storage_bucket": "reminder-pro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:535916417845:android:e8ec7a27b8393aac",
+        "android_client_info": {
+          "package_name": "com.example.ayush.reminderpro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "535916417845-apl6krhhqces7ibqfqoa5s92fogqeaab.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ayush.reminderpro",
+            "certificate_hash": "f04105a47636307767e6c23658f552428564546b"
+          }
+        },
+        {
+          "client_id": "535916417845-co2ij11254q619hcdmomk16plb50e2gd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnhZXGEro_3T-DegHhn7rsE7uHS6fVPh8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "535916417845-co2ij11254q619hcdmomk16plb50e2gd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

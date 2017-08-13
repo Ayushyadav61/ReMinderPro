@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ayush.reminderpro.splash"
+    android:background="#4B0082">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_launcher"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/iv"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="ReMinder Pro"
+        android:textColor="#6495ED"
+        android:textStyle="bold|italic"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:layout_marginTop="13dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/iv"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

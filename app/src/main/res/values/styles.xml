@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="widget">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+  </style>
+
+  <style name="edit_button">
+    <item name="android:layout_width">0sp</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_weight">1</item>
+    <item name="android:background">@android:drawable/btn_default</item>
+  </style>
+  <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+  <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+  <style name="list_item">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+  </style>
+  <style name="AppTheme" parent="AppBaseTheme">
+    <!-- Customize your theme here. -->
+  </style>
+  <style name="AppTheme.NoActionBar">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+  </style>
+
+  <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- customize the color palette -->
+    <item name="colorPrimary">@color/material_blue_500</item>
+    <item name="colorPrimaryDark">@color/material_blue_700</item>
+    <item name="colorAccent">@color/material_green_A200</item>
+  </style>
+
+  <style name="AppThemeNoActionbar" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- customize the color palette -->
+    <item name="colorPrimary">@color/material_blue_500</item>
+    <item name="colorPrimaryDark">@color/material_blue_700</item>
+    <item name="colorAccent">@color/material_green_A200</item>
+  </style>
+  <style name="PasscodeInputIStyle">
+    <item name="android:gravity">center</item>
+    <item name="android:maxLength">1</item>
+    <item name="android:textColor">@color/black</item>
+    <item name="android:textSize">40sp</item>
+    <item name="android:background">@drawable/edittext_background</item>
+    <item name="android:inputType">textPassword|number</item>
+    <item name="android:layout_width">0dp</item>
+    <item name="android:layout_height">80dp</item>
+    <item name="android:layout_margin">4dp</item>
+    <item name="android:layout_weight">1</item>
+    <item name="android:singleLine">true</item>
+  </style>
+
+  <style name="PasscodeButtonStyle" parent="@android:style/Widget.Button">
+    <item name="android:textSize">20sp</item>
+    <item name="android:textColor">#FF464646</item>
+    <item name="android:gravity">center</item>
+    <item name="android:background">@drawable/button_background</item>
+    <item name="android:layout_margin">5dp</item>
+    <item name="android:layout_width">120dp</item>
+    <item name="android:layout_height">48dp</item>
+  </style>
+  <style name="Theme.Transparent" parent="Theme.AppCompat.NoActionBar">
+    <item name="colorAccent">#555</item>
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:backgroundDimEnabled">false</item>
+  </style>
+
+</resources>
+
